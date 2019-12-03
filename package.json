@@ -1,0 +1,15 @@
+{
+  "name": "stbrn-studios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss styles/css/style.css -w",
+    "start": "node-sass sass/main.scss styles/css/style.css -w"
+  },
+  "author": "gabe colon",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

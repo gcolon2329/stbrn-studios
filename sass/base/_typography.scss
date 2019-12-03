@@ -1,0 +1,26 @@
+.heading-primary {
+  color: white;
+  backface-visibility: hidden;
+  margin-bottom: 4rem;
+
+  &--main {
+    display: block;
+    font-size: 20rem;
+    animation: moveInTop 1.5s ease-out;
+  }
+
+  &--sub {
+    display: block;
+    font-size: 10rem;
+    letter-spacing: 2rem;
+    animation: moveInBottom 1.5s ease-out;
+  }
+}
+
+.heading-secondary {
+  font-size: 6rem;
+  display: inline-block;
+  text-align: center;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
