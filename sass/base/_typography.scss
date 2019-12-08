@@ -4,20 +4,22 @@
   margin-bottom: 4rem;
 
   &--main {
+    font-family: "bebas", sans-serif;
     display: block;
-    font-size: 20rem;
+    font-size: 15rem;
     animation: moveInTop 1.5s ease-out;
   }
 
   &--sub {
     display: block;
-    font-size: 10rem;
+    font-size: 8rem;
     letter-spacing: 2rem;
     animation: moveInBottom 1.5s ease-out;
   }
 }
 
 .heading-secondary {
+  font-family: "barlow", sans-serif;
   font-size: 6rem;
   display: inline-block;
   text-align: center;

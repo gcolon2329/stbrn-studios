@@ -26,6 +26,13 @@
     display: inline-block;
   }
 
+  &--black {
+    background-color: rgb(29, 29, 29);
+    color: $color-white;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+  }
+
   &--white:after {
     background-color: $color-white;
   }

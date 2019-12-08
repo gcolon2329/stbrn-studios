@@ -1,12 +1,14 @@
 @import "sass/base/_base.scss";
 @import "sass/base/_animation.scss";
 @import "sass/base/_typography.scss";
+@import "sass/base/_utilities.scss";
 
 @import "sass/abstracts/_variables.scss";
 @import "sass/abstracts/_mixins.scss";
 
 @import "sass/components/_btn.scss";
 @import "sass/components/_grid.scss";
+@import "sass/components/_display-card.scss";
 
 @import "sass/components/layout/_header.scss";
 

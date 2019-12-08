@@ -1,0 +1,45 @@
+.display-card {
+  padding: 20rem 5rem;
+  margin-top: 5vh;
+  margin-bottom: 6rem;
+  border-radius: 8px;
+  box-shadow: 0rem 1.5rem 4rem rgba(0, 0, 0, 0.2);
+
+  &-1 {
+    background-image: url(/styles/img/ramen-shop-cover.png);
+    background-size: cover;
+    background-position: center;
+  }
+  &-2 {
+    background-image: url(/styles/img/wm-business-cards.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  &-3 {
+    background-image: url(/styles/img/hecho-en-cover.gif);
+    background-size: contain;
+    background-position: center;
+  }
+  &-4 {
+    background-color: $color-white;
+    background-image: url(/styles/img/Main.png);
+    background-size: contain;
+  }
+
+  &-text {
+    font-family: "barlow", sans-serif;
+    opacity: 0;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: $color-white;
+  }
+  &:hover {
+    background-image: linear-gradient($primary-color, $primary-color);
+    overflow: hidden;
+    transform: translateY(-2rem) scale(1.2);
+  }
+
+  &:hover &-text {
+    opacity: 1;
+  }
+}
